@@ -1,0 +1,13 @@
+@baseURL1 = http://localhost:9003
+@baseURL2 = http://localhost:9002
+
+### CREATE ORDERS
+POST {{baseURL1}}/orders
+Accept: application/json
+Content-Type: application/json
+
+{
+    "CustomerID": 12,
+    "ProductID": 2,
+    "Quantity": 5
+}
